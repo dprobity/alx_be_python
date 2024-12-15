@@ -4,7 +4,7 @@ hours = 2       #this defines the number of hours yu intend to convert to second
 
 #Doing the actual conversion to seconds
 
-seconds = hours*60*60
+seconds = hours*3600
 
 #lets print out the result
 
