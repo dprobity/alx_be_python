@@ -8,7 +8,7 @@ expenses = int(input("Enter your total monthly expenses:"))
 
 # Calculating the monthly savings
 
-savings = income - expenses
+monthly_savings = income - expenses
 
 # Calculating the projected annual savings 
 
