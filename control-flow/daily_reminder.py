@@ -15,11 +15,11 @@ reminder = ""
 # Use Match Case statement to handle different priority levels
 match priority:
     case "high":
-        reminder = f"Reminder: '{task}' is a high priority task"
+        reminder = f"'{task}' is a high priority task"
     case "medium":
-        reminder = f"Reminder: '{task}' is a medium priority task"
+        reminder = f"'{task}' is a medium priority task"
     case "low":
-        reminder = f"Reminder: '{task}' is a low priority task"
+        reminder = f"'{task}' is a low priority task"
     case _:
         reminder = "Invalid priority. Please enter 'high', 'medium', or 'low'."
 
@@ -32,4 +32,5 @@ else:
     reminder = "Invalid input for time-bound. Please enter 'yes' or 'no'."
 
 # Print the final reminder
-print(reminder)
+print(f"Reminder: {reminder}")
+
